@@ -2,7 +2,7 @@
 # MiniProject02
 ================
 
-JSP, Java Servlet을 이용하여 만든 방명록 앱입니다.
+JSP, Java Servlet, H2 Database, Apache Tomcat을 이용하여 만든 방명록 앱입니다.
 MVC 패턴을 적용하여, 컨트롤러(GuestController.java), 뷰(GuestBookList.jsp, GuestBookView.jsp), 모델(GuestBookDAO.java)을 각각 만들었습니다.
 사용자가 이름과 내용을 적어 submit하면,
 H2 Database에 만들어 놓은 guestbook 테이블에 번호(cid int primary key auto increment), 이름, 내용, 게시 일자(current_timestamp(0))가 저장되어 올라가는 방식으로
